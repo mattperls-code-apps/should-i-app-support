@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto/Roboto-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: hsl(255, 60%, 30%);
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+    background-color: hsl(255, 80%, 17.5%);
+}
+
+.navigation-button {
+    font-family: Roboto;
+    font-size: 18px;
+    color: hsl(255, 80%, 85%);
+    background-color: hsl(255, 85%, 10%);
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 12px;
+    transition: background-color 0.4s;
+}
+
+.navigation-button:active {
+    background-color:hsl(255, 80%, 17.5%);
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    color: hsl(255, 80%, 95%);
+    text-align: center;
+    margin: 60px 0;
+}
+
+.content {
+    font-family: Roboto;
+    font-size: 18px;
+    color: hsl(255, 80%, 85%);
+    width: calc(min(820px, 100vw - 80px));
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(255, 80%, 17.5%);
+}
+
+.content:last-of-type {
+    margin-bottom: 40px;
+}
+
+.horizontal-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+img {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+img:last-of-type {
+    margin-right: 0px;
+}
+
+.content-subheader {
+    display: block;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 24px;
+    color: hsl(255, 80%, 95%);
+    margin-bottom: 20px;
+}
+
+.content-bold {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    color:hsl(255, 80%, 85%);
+}
+
+.content-normal {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(255, 80%, 85%);
+    margin-bottom: 20px;
+}
+
+.content-indent1 {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.content-indent2 {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.content-link {
+    color:hsl(255, 80%, 85%);
+}
