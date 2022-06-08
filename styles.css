@@ -64,6 +64,10 @@ h1 {
 img {
     vertical-align: top;
     display: inline-block;
+    width: 240px;
+    height: 500px;
+    border-radius: 20px;
+    border: solid 2px hsl(255, 80%, 95%);
     margin-right: 20px;
 }
 
